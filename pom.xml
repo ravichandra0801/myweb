@@ -4,14 +4,13 @@
 	<groupId>in.javahome</groupId>
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
-	<version>11.0.24</version>
+	<version>8.2.0</version>
 	<name>Java Home myweb</name>
 	<url>http://maven.apache.org</url>
+	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
 		<sonar.host.url>http://18.181.164.81:9000/</sonar.host.url>
-		<maven.compiler.source>11.0.24</maven.compiler.source>
-                <maven.compiler.target>11.0.24</maven.compiler.target>
 
 	</properties>
 	<dependencies>
@@ -45,19 +44,6 @@
 		<url>http://repo1.maven.org/maven2</url>
 	    </pluginRepository>
 	</pluginRepositories>
-
-	<build>
-    <plugins>
-        <plugin>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.5.6</version>
-            <configuration>
-                <source>11.0.24</source>
-                <target>11.0.24</target>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
 
 	
 </project>
